@@ -1,4 +1,4 @@
-# Anish - the Color Bot
+# Anish's Color Bot
 
 ## :surfer: Introduction
 The purpose of this repo is to showcase a simple color chatbot.
