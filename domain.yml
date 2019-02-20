@@ -1,0 +1,25 @@
+slots:
+  color:
+        type: text
+
+intents:
+  - greet
+  - provide_color
+
+entities:
+  - color
+
+actions:
+- utter_greet
+- utter_color
+- utter_bye
+
+templates:
+  utter_greet:
+  - text: "Hey there! :) What is your favorite color?"
+
+  utter_color:
+  - text: "Your favorite color is {color}."
+
+  utter_bye:
+  - text: "Bye, thanks for chatting with color bot!"

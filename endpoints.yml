@@ -1,0 +1,3 @@
+# Webhook used to link front-end and back-end
+action_endpoint:
+  url: http://localhost:5055/webhook
