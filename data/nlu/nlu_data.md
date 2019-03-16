@@ -16,16 +16,16 @@
 - Hello
 
 ## intent: provide_color
-- [green](color)
-- [red](color)
-- [blue](color)
-- [purple](color)
-- [lime](color)
-- [pink](color)
-- [black](color)
-- [yellow](color)
+- My favourite color is[green](color)
+- I like [red](color)
+- [blue](color) is my favorite color
+- Definitely [purple](color)
+- I love [lime](color)
+- I think its [pink](color)
+- favorite color is [black](color)
+- I adore[yellow](color)
 - [maroon](color)
-- [navy blue](color)
-- [grey](color)
+- Probably [navy blue](color)
+- I love [grey](color)
 - [orange](color)
 - [white](color)
