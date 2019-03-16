@@ -1,0 +1,17 @@
+{
+  "states": [
+    "intent_greet",
+    "intent_provide_color",
+    "entity_color",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_default_fallback",
+    "prev_action_deactivate_form",
+    "prev_action_revert_fallback_events",
+    "prev_action_default_ask_affirmation",
+    "prev_action_default_ask_rephrase",
+    "prev_utter_greet",
+    "prev_utter_color",
+    "prev_utter_bye"
+  ]
+}

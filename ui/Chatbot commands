@@ -1,0 +1,25 @@
+step1:  create a folder
+
+step2:  open the folder in visual studio code
+
+step3: git clone the repo in the folder (https://github.com/RasaHQ/rasa-demo)
+
+step4:  change the directory to the rasa-demo folder
+
+step5: Now we have to train the models using the following command:
+ 1)for NLU model:
+ python -m rasa_nlu.train -c nlu_tensorflow.yml --fixed_model_name current --data data/nlu/ -o models --project nlu --verbose
+ 2)for rasa-core model:
+	 python -m rasa_core.train -d domain.yml -s data/core/ -o models/dialogue/
+
+ 
+step6: Now run the following command to enable the api so that we can use it for creating API:
+
+python -m rasa_core.run --enable_api -d models/dialogue -u models/nlu/current --debug --endpoints endpoints.yml --cors "*"
+
+step7: Now test the api in the POSTMAN 
+  http://localhost:5005/conversations/u...
+  body : {"query":"hello"}
+ now you can see the response
+
+Step 8: Now you can use this api in your custom chatbot UI,i have created a simple UI for integrating rasabot with custom channel (localhost:8080/chatui.html)
