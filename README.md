@@ -21,6 +21,6 @@ These are concepts that I shall explain in the [blog series](https://medium.com/
 
 ## 🤖 How to install and run the color CB
 
-Go to my blog [@anishmahapatra]http://bit.ly/UnderstandingRasaNLUandRasaCore on Medium to help you set up Rasa NLU and Rasa Core on your Linux System. 
+Go to my blog [@anishmahapatra](http://bit.ly/UnderstandingRasaNLUandRasaCore) on Medium to help you set up Rasa NLU and Rasa Core on your Linux System. 
 
 - 
